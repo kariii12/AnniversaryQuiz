@@ -44,11 +44,11 @@
 
     <script>
         const messages = [
-            "Preparing a little surprise...",
-            "Wrapping it up...",
-            "Adding a golden bow...",
-            "Checking the final touches...",
-            "Ta-da! Here we go!"
+            "Preparing a little surprise...", // 0s - 3s
+            "Wrapping it up...",             // 3s - 6s
+            "Adding a golden bow...",        // 6s - 9s
+            "Checking the final touches...", // 9s - 12s
+            "Ta-da! Here we go!"             // 12s - 17s (Shows for 5 seconds)
         ];
 
         let index = 0;
@@ -62,11 +62,11 @@
             }
         }, 3000);
 
-        // Redirect after 15 seconds (15000 milliseconds)
+        // Redirect after 17 seconds (17000 milliseconds)
         setTimeout(() => {
             clearInterval(interval);
             window.location.href = "quiz.html";
-        }, 15000);
+        }, 17000); 
     </script>
 </body>
 </html>
