@@ -48,7 +48,7 @@
             "Wrapping it up...",             // 3s - 6s
             "Adding a golden bow...",        // 6s - 9s
             "Checking the final touches...", // 9s - 12s
-            "Ta-da! Here we go!"             // 12s - 17s (Shows for 5 seconds)
+            "Ta-da! Here we go!"             // 12s - 20s (Shows for 8 seconds)
         ];
 
         let index = 0;
@@ -62,11 +62,11 @@
             }
         }, 3000);
 
-        // Redirect after 17 seconds (17000 milliseconds)
+        // Redirect after 20 seconds (20000 milliseconds)
         setTimeout(() => {
             clearInterval(interval);
             window.location.href = "quiz.html";
-        }, 17000); 
+        }, 20000); 
     </script>
 </body>
 </html>
